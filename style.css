@@ -17,6 +17,9 @@ html {
 /*
 -----------------MEDIA QUERIES---------------
 
+  @media only screen and (min-width: 0px) {
+  }
+
   @media only screen and (min-width: 600px) {
   }
 
@@ -64,12 +67,46 @@ body {
 
 .nav__container {
   display: flex;
-  padding: 2rem 1.5rem;
-}
+  padding: 2.5rem 6rem;
+
+  
+
+  }
+
+  @media only screen and (min-width: 0px) {
+    .nav__container {
+      padding: 2.5rem  2rem;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .nav__container {
+      padding: 2.5rem  2rem;
+    }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .nav__container {
+      padding: 2.5rem  3rem;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    .nav__container {
+      padding: 2.5rem 4rem;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .nav__container {
+      padding: 2.5rem 6rem;
+    }
+  }
 
 .nav__logo {
   display: flex;
   align-items: center;
+  margin-right: 2rem;
 }
 
 .nav__logo--link {
