@@ -29,6 +29,9 @@ html {
   @media only screen and (min-width: 900px) {
   }
 
+  @media only screen and (min-width: 1000px) {
+  }
+
   @media only screen and (min-width: 1200px) {
   }
 ----------------------------------------------
@@ -68,40 +71,70 @@ body {
 .nav__container {
   display: flex;
   padding: 2.5rem 6rem;
+  height: 10rem;
+  transition: all 0.3s;
+}
 
-  
+.nav__menu {
+  display: inline-block;
+  position: relative;
+  width: 3rem;
+  cursor: pointer;
+}
 
-  }
+.nav__menu--span {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 0.2rem;
+  width: 3rem;
+  background-color: var(--color-black);
+}
 
-  @media only screen and (min-width: 0px) {
-    .nav__container {
-      padding: 2.5rem  2rem;
-    }
-  }
+.nav__menu--span::before {
+  content: "";
+  position: absolute;
+  transform: translateY(-1rem);
+  height: 0.2rem;
+  width: 3rem;
+  background-color: var(--color-black);
+  transition: all 0.2s;
+}
 
-  @media only screen and (min-width: 600px) {
-    .nav__container {
-      padding: 2.5rem  2rem;
-    }
-  }
+.nav__menu:hover .nav__menu--span::before {
+  transform: translateY(-1.2rem);
+}
 
-  @media only screen and (min-width: 800px) {
-    .nav__container {
-      padding: 2.5rem  3rem;
-    }
-  }
+.nav__menu:active .nav__menu--span::before {
+  transform: translateY(-1rem);
+}
 
-  @media only screen and (min-width: 900px) {
-    .nav__container {
-      padding: 2.5rem 4rem;
-    }
-  }
+.nav__menu--span::after {
+  content: "";
+  position: absolute;
+  transform: translate(-0.5rem, 1rem);
+  height: 0.2rem;
+  width: 3rem;
+  background-color: var(--color-black);
+  transition: all 0.2s;
+}
 
-  @media only screen and (min-width: 1200px) {
-    .nav__container {
-      padding: 2.5rem 6rem;
-    }
-  }
+.nav__menu:hover .nav__menu--span::after {
+  transform: translate(-0.5rem, 1.2rem);
+}
+
+.nav__menu:active .nav__menu--span::after {
+  transform: translate(-0.5rem, 1rem);
+}
+
+.nav__left {
+  display: flex;
+}
+
+.nav__right {
+  background-color: var(--color-gold);
+}
 
 .nav__logo {
   display: flex;
@@ -131,6 +164,10 @@ body {
   align-items: center;
 }
 
+.nav__item:first-of-type {
+  display: none;
+}
+
 .nav__item--dropdown {
   position: relative;
 }
@@ -139,6 +176,7 @@ body {
   margin-left: auto;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .nav__user--name {
@@ -206,5 +244,94 @@ body {
 
   &-tertiary {
     font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 0px) {
+  .nav__container {
+    padding: 2.5rem 2rem;
+  }
+
+  .nav__right {
+    display: none;
+  }
+
+  .dropdown {
+    top: -0.8rem;
+    left: 100%;
+  }
+
+  .nav__user {
+    display: none;
+  }
+
+  .nav__menu {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (min-width: 400px) {
+  .nav__user {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .nav__item:first-of-type {
+    display: none;
+  }
+
+  .nav__menu {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .nav__container {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .nav__container {
+    padding: 2.5rem 3rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+}
+
+@media only screen and (min-width: 1000px) {
+  .nav__container {
+    display: flex;
+    position: static;
+    top: none;
+    left: none;
+    width: auto;
+    padding: auto;
+  }
+
+  .nav__right {
+    display: flex;
+    position: static;
+    top: none;
+    left: none;
+    width: auto;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .dropdown {
+    top: 100%;
+    left: -35%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav__container {
+    padding: 2.5rem 6rem;
   }
 }
