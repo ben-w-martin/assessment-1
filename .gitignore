@@ -1,0 +1,12 @@
+# Ignore Visual Studio files
+dotnet/TodoApi/.vs/
+
+# Ignore compiled binaries
+*.vsix
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
