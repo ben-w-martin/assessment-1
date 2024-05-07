@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { Menu } from "./Menu";
 
 function NavBar() {
@@ -136,9 +136,9 @@ function NavBar() {
               </a>
             </div>
             <div className="nav__item">
-              <a href="#" className="nav-link">
-                Contact
-              </a>
+              <Link to={"/todo"} className="nav-link">
+                Todo
+              </Link>
             </div>
             <div className="nav__item">
               <a href="#" className="nav-link">

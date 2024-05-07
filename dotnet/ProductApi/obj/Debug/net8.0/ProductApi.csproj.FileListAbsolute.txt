@@ -277,3 +277,4 @@ C:\assessment-1\dotnet\ProductApi\obj\Debug\net8.0\refint\ProductApi.dll
 C:\assessment-1\dotnet\ProductApi\obj\Debug\net8.0\ProductApi.pdb
 C:\assessment-1\dotnet\ProductApi\obj\Debug\net8.0\ProductApi.genruntimeconfig.cache
 C:\assessment-1\dotnet\ProductApi\obj\Debug\net8.0\ref\ProductApi.dll
+C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

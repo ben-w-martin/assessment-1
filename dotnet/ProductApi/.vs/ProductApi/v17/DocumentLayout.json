@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\assessment-1\\dotnet\\ProductApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\controllers\\taskapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:controllers\\taskapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\models\\request\\tasks\\taskupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:models\\request\\tasks\\taskupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\models\\domain\\tasks\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:models\\domain\\tasks\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:controllers\\productapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|c:\\assessment-1\\dotnet\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBB56B72-0D37-41D4-9CC1-662A9E1CD015}|ProductApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,19 +38,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskUpdateRequest.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Models\\Request\\Tasks\\TaskUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\Request\\Tasks\\TaskUpdateRequest.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Models\\Request\\Tasks\\TaskUpdateRequest.cs",
+              "RelativeToolTip": "Models\\Request\\Tasks\\TaskUpdateRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T19:19:42.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Services\\ProductService.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "Services\\ProductService.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAqwHIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:15:46.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TaskApiController.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Controllers\\TaskApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskApiController.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Controllers\\TaskApiController.cs",
+              "RelativeToolTip": "Controllers\\TaskApiController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwEoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:15:39.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Models\\Domain\\Tasks\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\Domain\\Tasks\\TaskItem.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Models\\Domain\\Tasks\\TaskItem.cs",
+              "RelativeToolTip": "Models\\Domain\\Tasks\\TaskItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:10:58.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwBsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T22:08:51.125Z",
+              "WhenOpened": "2024-05-07T16:34:47.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductApiController.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Controllers\\ProductApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductApiController.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Controllers\\ProductApiController.cs",
+              "RelativeToolTip": "Controllers\\ProductApiController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAiwEUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T16:20:17.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\assessment-1\\dotnet\\ProductApi\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Services\\TaskService.cs",
+              "ToolTip": "C:\\assessment-1\\dotnet\\ProductApi\\Services\\TaskService.cs",
+              "RelativeToolTip": "Services\\TaskService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAowFUAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T18:15:17.324Z",
               "EditorCaption": ""
             }
           ]
