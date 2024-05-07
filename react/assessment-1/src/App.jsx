@@ -1,10 +1,10 @@
 import { NavBar } from "./components/NavBar";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./style.css";
-import { ProductCard } from "./components/ProductCard";
 import { ProductForm } from "./components/ProductForm";
 import { Products } from "./components/Products";
 import { Home } from "./components/Home";
+import { Todo } from "./components/Todo";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
             <Route path="/products/" element={<Products />}></Route>
             <Route path="/products/form" element={<ProductForm />}></Route>
             <Route path="/products/form/:id" element={<ProductForm />}></Route>
+            <Route path="/todo" element={<Todo />}></Route>
           </Routes>
         </div>
       </Router>

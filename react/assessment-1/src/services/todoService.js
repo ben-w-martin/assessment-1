@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const endpoint = "https://localhost:7178/api/products";
+const endpoint = "https://localhost:7178/api/tasks";
 
 const getAll = () => {
   const config = {

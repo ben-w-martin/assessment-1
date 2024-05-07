@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Data.SqlClient;
-using Microsoft.Extensions.Logging.Abstractions;
+﻿using Microsoft.AspNetCore.Mvc;
 using ProductApi.Models.Domain.Products;
 using ProductApi.Models.Request.Products;
 using ProductApi.Services;
@@ -39,15 +36,21 @@ namespace ProductApi.Controllers
         }
 
         [HttpPost]
-        public int Create(ProductAddRequest model)
+        public IActionResult Create(ProductAddRequest model)
         {
 
             int id = 0;
 
+            try
+            {
             id = _service.Add(model);
 
-            return id;
+            } catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
 
+            return StatusCode(201, id);
         }
 
         [HttpPut("{id:int}")]

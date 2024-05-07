@@ -3,6 +3,8 @@
 
 :root {
   --color-blue: #242f40;
+  --color-blue-lt: #3a4a61;
+  --color-blue-xlt: #516684;
   --color-gold: #cca43b;
   --color-gold-dk: #b99436;
   --color-gray: #d3d3d3;
@@ -363,11 +365,134 @@ body {
 .btn-header {
   background-color: var(--color-blue);
   color: var(--color-white);
+  font-weight: 300;
+
+}
+
+.btn-submit {
+  background-color: var(--color-gold-dk);
+}
+
+.btn-submit:hover {
+  background-color: var(--color-gold);
+  
+}
+
+.product-submit {
+  margin-top: 1rem;
 }
 
 .products-header {
   display: flex;
-  font-weight: 300;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-form-container {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 5px;
+  padding: 4rem;
+}
+
+.product__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__form--heading {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+
+  & label {
+    margin-bottom: 1rem;
+  }
+
+  & input,
+    select {
+    height: 3rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    background-color: var(--color-gray);
+    color: var(--color-black);
+    padding: .5rem;
+    font-family: "Oxygen Mono", monospace;
+  }
+}
+
+.todo-form-container {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  border-radius: 5px;
+  padding: 4rem;
+}
+
+.todo__input-inline {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: 9fr 1fr;
+}
+
+.todo-heading {
+  text-align: center;
+}
+
+.tasks-heading {
+  margin: 3rem 0;
+
+}
+
+.tasks__list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+
+.tasks__card {
+  padding: .5rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all .2s;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-blue-lt);
+}
+
+.tasks__card:hover {
+ background-color: var(--color-blue-xlt);
+ top: -1px;
+}
+
+.tasks__card:active {
+  top: 1px;
+}
+
+.tasks__card--completed {
+  background-color: rgb(55, 99, 55);
+}
+
+.tasks__card--completed:hover {
+  background-color: rgb(77, 140, 77);
+
+}
+
+.btn-delete {
+  margin-left: .5rem;
+  padding: .5rem 1rem;
+  background-color: rgb(125, 19, 19);
+  color: var(--color-white)
 }
 
 /*********************** MEDIA QUERIES ********************/
@@ -376,7 +501,7 @@ body {
 @media only screen and (min-width: 0px) {
   .main-container { 
     width: 100%;
-  padding: 3rem 2rem;
+  padding: 0;
 
   }
   
@@ -417,6 +542,11 @@ body {
   .products {
     grid-template-columns: 1fr;
   }
+
+  .tasks__list {
+    grid-template-columns: 1fr;
+  }
+
 }
 
 
@@ -440,11 +570,22 @@ body {
 }
 
 @media only screen and (min-width: 600px) {
+  .main-container { 
+    width: 100%;
+   padding: 1rem 2rem;
+
+  }
+
   .nav__container {
     padding: 2.5rem 2rem;
   }
     
   .products {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+  .tasks__list {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -468,6 +609,11 @@ body {
 @media only screen and (min-width: 1000px) {
   .main-container {
     padding: 3rem  4rem;
+  }
+
+  
+  .tasks__list {
+    grid-template-columns: 1fr 1fr 1fr;
   }
   
   .nav__container {
@@ -506,5 +652,9 @@ body {
 @media only screen and (min-width: 1200px) {
   .nav__container {
     padding: 2.5rem 6rem;
+  }
+
+  .tasks__list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
