@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oYFYRDoUZmp+SXWabN1mHeXkitNi0KRVnQCsx8AudFrgMiZcctH3oIeXZ/IPwDgjxy8XKO694U0rYy7+Us5iIQ==",
+  "dgSpecHash": "F2VCUY+nGi6lQGb5CTLAbCrY/+fzPFWwcyRCD04J6F6rnOTo/ekY1nfbhpoxVfWQ7mEULDUNXBi6sWq/pHK9QA==",
   "success": true,
   "projectFilePath": "C:\\assessment-1\\dotnet\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
@@ -29,7 +29,7 @@
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.0\\microsoft.extensions.dependencymodel.8.0.0.nupkg.sha512",
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Benwa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
