@@ -160,7 +160,6 @@ C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\assessment-1\dotnet\ProductApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
